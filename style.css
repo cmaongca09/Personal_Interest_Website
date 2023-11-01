@@ -159,15 +159,26 @@ section {
   align-self: center;
   text-align: center;
 }
-.title-2 {
-  font-size: 3rem;
-  color: white;
-  -webkit-text-stroke: 1px black;
-  text-align: left;
-}
 
 p {
   color: white;
   -webkit-text-stroke: 1px black;
   font-size: medium;
+}
+
+.title-2 {
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: left;
+}
+
+/* Characters */
+#charcter {
+  position: relative;
+}
+
+.title-3 {
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: left;
 }
