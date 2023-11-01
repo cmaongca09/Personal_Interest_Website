@@ -86,6 +86,7 @@ a:hover {
 #check {
   display: none;
 }
+
 /* section */
 section {
   padding-top: 4vh;
@@ -98,87 +99,4 @@ section {
 .section-container {
   display: flex;
   flex-direction: column;
-}
-
-/* home */
-#home {
-  position: relative;
-}
-
-.title {
-  font-size: 3rem;
-  color: white;
-  -webkit-text-stroke: 1px black;
-  text-align: center;
-}
-
-.section_pic-container {
-  display: flex;
-  flex-direction: column;
-  height: 256px;
-  width: 256px;
-  margin: auto 0;
-}
-
-.home-container {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: column;
-}
-
-.home-details-container {
-  justify-content: center;
-  flex-direction: row;
-}
-
-.home-container,
-.home-details-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.home-logo {
-  border-radius: 2rem;
-}
-
-.details-container {
-  padding: 1.5rem;
-  flex: 1;
-  background: rgb(54, 54, 54);
-  border-radius: 2rem;
-  border: rgb(54, 54, 54) 0.1rem solid;
-  border-color: rgb(0, 0, 0);
-  text-align: center;
-}
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
-.section-text {
-  align-self: center;
-  text-align: center;
-}
-
-p {
-  color: white;
-  -webkit-text-stroke: 1px black;
-  font-size: medium;
-}
-
-.title-2 {
-  color: white;
-  -webkit-text-stroke: 1px black;
-  text-align: left;
-}
-
-/* Characters */
-#characters {
-  position: relative;
-}
-
-.title-3 {
-  color: white;
-  -webkit-text-stroke: 1px black;
-  text-align: left;
 }
