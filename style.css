@@ -108,6 +108,7 @@ section {
 .title {
   font-size: 3rem;
   color: white;
+  -webkit-text-stroke: 1px black;
   text-align: center;
 }
 
@@ -157,6 +158,12 @@ section {
 .section-text {
   align-self: center;
   text-align: center;
+}
+.title-2 {
+  font-size: 3rem;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: left;
 }
 
 p {
