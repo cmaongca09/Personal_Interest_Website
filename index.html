@@ -1,214 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Left 4 Dead 2</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="assets/logo6.png" title="Left4Dead2" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="assets/logo1.png" title="Left4Dead2" />
+    <!-- BoxiconsLink -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    /> 
   </head>
   <body>
-    <div class="perspective effect-rotate-left">
-      <div class="container">
-        <div class="outer-nav--return"></div>
-        <div id="viewport" class="l-viewport">
-          <div class="l-wrapper">
-            <header class="header">
-              <a class="header--logo" href="#0">
-                <img src="assets/logo6.png" alt="logo" />
-                <p>Left 4 Dead 2</p>
-              </a>
-              <button class="header--cta cta">Hire Us</button>
-              <div class="header--nav-toggle">
-                <span></span>
-              </div>
-            </header>
-            <nav class="l-side-nav">
-              <ul class="side-nav">
-                <li class="is-active"><span>Home</span></li>
-                <li><span>Characters</span></li>
-                <li><span>Weapons</span></li>
-                <li><span>Stages</span></li>
-                <li><span>Game Modes</span></li>
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo"><a href="#">
+          <img src="assets/logo6.png" alt="l4d2">
+            <a>Left 4 Dead 2</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name"><a href="#">
+          <img src="assets/logo4.png" alt="l4d2"></span>
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">CHARACTERS</a>
+              <i class="bx bxs-chevron-down characters-arrow arrow"></i>
+              <ul class="characters-sub-menu sub-menu">
+                <li><a href="#">one</a></li>
+                <li><a href="#">twos</a></li>
+                <li><a href="#">three</a></li>
+                <li class="more">
+                  <span
+                    ><a href="#">More</a>
+                    <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                  </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="#">four</a></li>
+                    <li><a href="#">five</a></li>
+                    <li><a href="#">six</a></li>
+                  </ul>
+                </li>
               </ul>
-            </nav>
-            <ul class="l-main-content main-content">
-              <li class="l-section section section--is-active">
-                <div class="intro">
-                  <div class="intro--banner">
-                    <h1>Welcome to<br />Left 4 Dead 2<br />Fansite!</h1>
-                    <img src="./assets/home-logo.png" alt="Welcome" />
-                  </div>
-                  <div class="intro--options">
-                    <a href="#0">
-                      <h3>Metiew &amp; Smith</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                        sed do.
-                      </p>
-                    </a>
-                    <a href="#0">
-                      <h3>Background</h3>
-                      <p>
-                        Left 4 Dead 2 (abbreviated L4D2) is a single-player and
-                        multiplayer cooperative survival horror first person
-                        shooter game developed by Valve Corporation. It is the
-                        sequel to Left 4 Dead, and was built using Source
-                        engine. It was first announced on June 1, 2009 by Valve
-                        Corporation at Microsoft's E3 2009 press conference. The
-                        game is available on PC and Xbox 360.
-                      </p>
-                    </a>
-                    <a href="#0">
-                      <h3>VALVE &amp; Corporation</h3>
-                      <p>
-                        Valve Corporation, also known as Valve Software, is an
-                        American video game developer, publisher,and digital
-                        distribution company headquartered in Bellevue,
-                        Washington. It is the developer of the software
-                        distribution platform Steam and the franchises
-                        Half-Life, Counter-Strike, Portal, Day of Defeat, Team
-                        Fortress, Left 4 Dead, and Dota.
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="l-section section">
-                <div class="characters">
-                  <h2>Characters</h2>
-                  <div class="characters--lockup">
-                    <ul class="slider">
-                      <li class="slider--item slider--item-left">
-                        <a href="#0">
-                          <div class="slider--item-image">
-                            <img src="assets/coach.png" alt="Coach" />
-                          </div>
-                          <p class="slider--item-title">Coach</p>
-                          <p class="slider--item-description">
-                            Elis an ethusiastic character among the group
-                          </p>
-                        </a>
-                      </li>
-                      <li class="slider--item slider--item-center">
-                        <a href="#0">
-                          <div class="slider--item-image">
-                            <img src="assets/ellis.png" alt="Ellis" />
-                          </div>
-                          <p class="slider--item-title">Ellis</p>
-                          <p class="slider--item-description">
-                            Elis an ethusiastic character among the group1
-                          </p>
-                        </a>
-                      </li>
-                      <li class="slider--item slider--item-right">
-                        <a href="#0">
-                          <div class="slider--item-image">
-                            <img src="assets/nick.png" alt="Nick" />
-                          </div>
-                          <p class="slider--item-title">Nick</p>
-                          <p class="slider--item-description">
-                            Elis an ethusiastic character among the group2
-                          </p>
-                        </a>
-                      </li>
-                      <li class="slider--item slider--item-right">
-                        <a href="#0">
-                          <div class="slider--item-image">
-                            <img src="assets/rochelle.png" alt="Rochelle" />
-                          </div>
-                          <p class="slider--item-title">Rochelle</p>
-                          <p class="slider--item-description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit sed do.
-                          </p>
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="slider--prev">
-                      <svg
-                        version="1.1"
-                        id="Layer_1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 150 118"
-                        style="enable-background: new 0 0 150 118"
-                        xml:space="preserve"
-                      >
-                        <g
-                          transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
-                        >
-                          <path
-                            d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"
-                          />
-                        </g>
-                      </svg>
-                    </div>
-                    <div class="slider--next">
-                      <svg
-                        version="1.1"
-                        id="Layer_1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 150 118"
-                        style="enable-background: new 0 0 150 118"
-                        xml:space="preserve"
-                      >
-                        <g
-                          transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
-                        >
-                          <path
-                            d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
-                          />
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="l-section section">
-                <div class="weapons">
-                  <h2>Weapons</h2>
-                </div>
-              </li>
-              <li class="l-section section">
-                <div class="stages">
-                  <h2>Stages</h2>
-                </div>
-              </li>
-              <li class="l-section section">
-                <div class="gamemodes">
-                  <h2>You Game Modes to do</h2>
-                </div>
-              </li>
-              <li class="l-section section">
-                <div class="About">
-                  <h2>About</h2>
-                </div>
-              </li>
-            </ul>
+            </li>
+            <li><a href="#">WEAPONS</a>
+              <i class="bx bxs-chevron-down weapons-arrow arrow"></i>
+              <ul class="weapons-sub-menu sub-menu">
+                <li><a href="#">bang</a></li>
+                <li><a href="#">beng</a></li>
+                <li><a href="#">bing</a></li>
+                <li><a href="#">bong</a></li>
+              </ul>
+            </li>
+            <li><a href="#">STAGES</a></li>
+            <li><a href="#">GAME MODES</a></li>
+            <li><a href="#">ABOUT</a></li>
+          </ul>
+        </div>
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search..." />
           </div>
         </div>
       </div>
-      <ul class="outer-nav">
-        <li class="is-active">Home</li>
-        <li>Characters</li>
-        <li>Weapons</li>
-        <li>Stages</li>
-        <li>Game Modes</li>
-      </ul>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
+    </nav>
     <script src="script.js"></script>
   </body>
 </html>
