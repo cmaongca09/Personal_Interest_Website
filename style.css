@@ -445,6 +445,7 @@ body {
 }
 .intro--options p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .characters {
