@@ -162,7 +162,7 @@ $(document).ready(function () {
     });
   }
 
-  function workSlider() {
+  function charactersSlider() {
     $(".slider--prev, .slider--next").click(function () {
       var $this = $(this),
         curLeft = $(".slider").find(".slider--item-left"),
@@ -171,7 +171,7 @@ $(document).ready(function () {
         curCenterPos = $(".slider").children().index(curCenter),
         curRight = $(".slider").find(".slider--item-right"),
         curRightPos = $(".slider").children().index(curRight),
-        totalWorks = $(".slider").children().length,
+        totalcharacters = $(".slider").children().length,
         $left = $(".slider--item-left"),
         $center = $(".slider--item-center"),
         $right = $(".slider--item-right"),
@@ -182,9 +182,9 @@ $(document).ready(function () {
       setTimeout(function () {
         if ($this.hasClass("slider--next")) {
           if (
-            curLeftPos < totalWorks - 1 &&
-            curCenterPos < totalWorks - 1 &&
-            curRightPos < totalWorks - 1
+            curLeftPos < totalCharacters - 1 &&
+            curCenterPos < totalCharacters - 1 &&
+            curRightPos < totalCharacters - 1
           ) {
             $left
               .removeClass("slider--item-left")
@@ -199,7 +199,7 @@ $(document).ready(function () {
               .next()
               .addClass("slider--item-right");
           } else {
-            if (curLeftPos === totalWorks - 1) {
+            if (curLeftPos === totalCharacters - 1) {
               $item
                 .removeClass("slider--item-left")
                 .first()
@@ -212,7 +212,7 @@ $(document).ready(function () {
                 .removeClass("slider--item-right")
                 .next()
                 .addClass("slider--item-right");
-            } else if (curCenterPos === totalWorks - 1) {
+            } else if (curCenterPos === totalCharacters - 1) {
               $left
                 .removeClass("slider--item-left")
                 .next()
@@ -304,7 +304,7 @@ $(document).ready(function () {
   }
 
   function transitionLabels() {
-    $(".work-request--information input").focusout(function () {
+    $(".characters-request--information input").focusout(function () {
       var textVal = $(this).val();
 
       if (textVal === "") {
@@ -319,6 +319,6 @@ $(document).ready(function () {
   }
 
   outerNav();
-  workSlider();
+  charactersSlider();
   transitionLabels();
 });
