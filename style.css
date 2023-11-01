@@ -811,6 +811,7 @@ body {
 }
 .intro--options p {
   margin-bottom: 0;
+  text-align: justify;
 }
 @media (max-width: 900px) {
   .intro--banner {
