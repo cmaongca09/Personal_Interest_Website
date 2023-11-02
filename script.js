@@ -36,3 +36,68 @@ let weaponsArrow = document.querySelector(".weapons-arrow");
 weaponsArrow.onclick = function () {
   navLinks.classList.toggle("show3");
 };
+
+// Get the modal
+var modal = document.getElementById("myModal");
+var img = document.getElementById("CS1");
+var modalImg = document.getElementById("CS01");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+var modal = document.getElementById("myModal2");
+var img = document.getElementById("CS2");
+var modalImg = document.getElementById("CS02");
+var captionText = document.getElementById("caption2");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+var modal = document.getElementById("myModal3");
+var img = document.getElementById("CS3");
+var modalImg = document.getElementById("CS03");
+var captionText = document.getElementById("caption3");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+var modal = document.getElementById("myModal4");
+var img = document.getElementById("CS4");
+var modalImg = document.getElementById("CS04");
+var captionText = document.getElementById("caption4");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
