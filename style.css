@@ -456,17 +456,17 @@ div.gallery:hover {
 
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
+  top: 69px;
+  right: 50px;
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
