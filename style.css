@@ -237,6 +237,7 @@ p {
   text-align: center;
 }
 .image-container {
+  display: flex;
   padding: 0 3rem;
   float: left;
   width: 24.99999%;
@@ -254,6 +255,7 @@ character section */
 }
 div.gallery {
   border: 1px solid #ccc;
+  justify-content: center;
 }
 div.gallery:hover {
   border: 1px solid #09a311;
@@ -471,7 +473,8 @@ div.gallery:hover {
 
 div.desc {
   padding: 15px;
-  margin-left: 6.3rem;
+
   text-align: left;
   color: #fff;
+  text-align: center;
 }
