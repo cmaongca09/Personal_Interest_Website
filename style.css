@@ -284,6 +284,26 @@ div.gallery:hover {
   opacity: 0.7;
 }
 
+#CS3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#CS3:hover {
+  opacity: 0.7;
+}
+
+#CS4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#CS4:hover {
+  opacity: 0.7;
+}
+
 .modal {
   display: none;
   position: fixed;
