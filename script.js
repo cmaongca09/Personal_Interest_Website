@@ -54,6 +54,12 @@ span.onclick = function () {
   modal.style.display = "none";
 };
 
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
 var modal = document.getElementById("myModal2");
 var img = document.getElementById("CS2");
 var modalImg = document.getElementById("CS02");
@@ -64,10 +70,16 @@ img.onclick = function () {
   captionText.innerHTML = this.alt;
 };
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[1];
 
 span.onclick = function () {
   modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 };
 
 var modal = document.getElementById("myModal3");
@@ -80,10 +92,16 @@ img.onclick = function () {
   captionText.innerHTML = this.alt;
 };
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[2];
 
 span.onclick = function () {
   modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 };
 
 var modal = document.getElementById("myModal4");
@@ -96,8 +114,14 @@ img.onclick = function () {
   captionText.innerHTML = this.alt;
 };
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[3];
 
 span.onclick = function () {
   modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 };
