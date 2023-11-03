@@ -479,6 +479,8 @@ div.desc {
   text-align: center;
 }
 
+/* weapons */
+
 div.scroll-container {
   background-color: #333;
   overflow: auto;
@@ -491,6 +493,9 @@ div.scroll-container img {
 }
 
 /* Weapons Section */
+#weapons {
+  position: relative;
+}
 
 div.scroll-container {
   width: 1520px;
@@ -501,8 +506,7 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 1px;
-  
-  }
+}
 
 div.scroll-container img {
   padding: 5px;
