@@ -489,3 +489,21 @@ div.scroll-container {
 div.scroll-container img {
   padding: 10px;
 }
+
+/* Weapons Section */
+
+div.scroll-container {
+  width: 1520px;
+  height: 700px;
+  overflow: auto;
+  margin: 100;
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 1px;
+  
+  }
+
+div.scroll-container img {
+  padding: 5px;
+}
