@@ -169,3 +169,47 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+var modal = document.getElementById("myModal7");
+var img = document.getElementById("CI3");
+var modalImg = document.getElementById("CI03");
+var captionText = document.getElementById("caption7");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[6];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+var modal = document.getElementById("myModal8");
+var img = document.getElementById("CI4");
+var modalImg = document.getElementById("CI04");
+var captionText = document.getElementById("caption8");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[7];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
