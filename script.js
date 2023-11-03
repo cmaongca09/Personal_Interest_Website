@@ -126,7 +126,7 @@ window.onclick = function (event) {
   }
 };
 
-var modal = document.getElementById("myinfect5");
+var modal = document.getElementById("myModal5");
 var img = document.getElementById("CI1");
 var modalImg = document.getElementById("CI01");
 var captionText = document.getElementById("caption5");
@@ -148,7 +148,7 @@ window.onclick = function (event) {
   }
 };
 
-var modal = document.getElementById("myinfect6");
+var modal = document.getElementById("myModal6");
 var img = document.getElementById("CI2");
 var modalImg = document.getElementById("CI02");
 var captionText = document.getElementById("caption6");
