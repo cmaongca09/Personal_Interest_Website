@@ -213,3 +213,69 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+var modal = document.getElementById("myModal9");
+var img = document.getElementById("CI5");
+var modalImg = document.getElementById("CI05");
+var captionText = document.getElementById("caption9");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[8];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+var modal = document.getElementById("myModal10");
+var img = document.getElementById("CI6");
+var modalImg = document.getElementById("CI06");
+var captionText = document.getElementById("caption10");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[9];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+var modal = document.getElementById("myModal11");
+var img = document.getElementById("CI7");
+var modalImg = document.getElementById("CI07");
+var captionText = document.getElementById("caption11");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+
+var span = document.getElementsByClassName("close")[10];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
