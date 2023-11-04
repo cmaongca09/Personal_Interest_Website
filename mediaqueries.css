@@ -118,3 +118,10 @@
     max-width: 100%;
   }
 }
+
+/* CHARACTER SECTION */
+@media (max-width: 768px) {
+  .character-container .popup-image img {
+    width: 95%;
+  }
+}
