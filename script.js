@@ -37,6 +37,7 @@ weaponsArrow.onclick = function () {
   navLinks.classList.toggle("show3");
 };
 
+/* STAGES SECTION */
 let slideIndex = 1;
 showSlides(slideIndex);
 

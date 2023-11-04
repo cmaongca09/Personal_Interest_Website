@@ -193,426 +193,66 @@ nav .navbar .links li:hover .weapons-sub-menu {
   display: none;
 }
 
-/* home */
-#home {
+/* different background */
+section {
   position: relative;
-}
-
-.head1 {
-  text-align: center;
-  margin: 6rem;
-  font-size: 3rem;
-  color: #fff;
-  -webkit-text-stroke: 2px rgb(163, 6, 6);
-}
-
-p {
-  color: #fff;
-  text-align: justify;
-  margin: auto 0;
-}
-
-.head2 {
-  text-align: left;
-  margin: 1.5rem;
-  font-size: 2.5rem;
-  padding: 1rem;
-  color: #fff;
-  -webkit-text-stroke: 2px rgb(163, 6, 6);
-}
-
-.head3 {
-  text-align: left;
-  margin: 1.5rem;
-  font-size: 2rem;
-  padding: 1.5rem;
-  color: #fff;
-  -webkit-text-stroke: 2px rgb(11, 163, 6);
-}
-
-.head4 {
-  text-align: left;
-  margin: 1.5rem;
-  font-size: 2rem;
-  padding: 1.5rem;
-  color: #fff;
-  -webkit-text-stroke: 2px rgb(206, 81, 9);
-}
-
-.head5 {
-  text-align: center;
-  margin: 1.5rem;
-  font-size: 2rem;
-  padding: 1.5rem;
-  color: #fff;
-  -webkit-text-stroke: 2px rgb(206, 81, 9);
-}
-
-.section-container {
-  gap: 2;
-  padding: 3rem;
-}
-
-.section-text {
-  align-self: center;
-  text-align: center;
-}
-.image-container {
   display: flex;
-  padding: 0 3rem;
-  margin-bottom: 2rem;
-  float: left;
-  width: 24.99999%;
-}
-
-.section-details-container {
+  width: 100%;
+  min-height: 100vh;
+  flex-flow: column wrap;
+  align-items: center;
   justify-content: center;
-  flex-direction: row;
+  font-size: 1rem;
+  background-color: #f4f4f4;
+  background-image: url(assets/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  scroll-snap-align: center;
 }
 
-/* 
-character section */
-#characters {
-  position: relative;
-}
-div.gallery {
-  border: 1px solid #000000;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-div.gallery:hover {
-  border: 1px solid #ffffff;
-}
-
-div.gallery2 {
-  border: 1px solid #000000;
-  background-color: gray;
-  justify-content: center;
-}
-div.gallery2:hover {
-  border: 2px solid #a30909;
-}
-
-/* Survivors section */
-#survivors {
-  position: relative;
-}
-
-#CS1 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#CS1:hover {
-  opacity: 0.7;
-}
-
-#CS2 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#CS2:hover {
-  opacity: 0.7;
-}
-
-#CS3 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#CS3:hover {
-  opacity: 0.7;
-}
-
-#CS4 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#CS4:hover {
-  opacity: 0.7;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: justify;
-  color: #ffffff;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-content,
-#caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-.modal2 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-}
-.modal-content2 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-#caption2 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: justify;
-  color: #ffffff;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-content2,
-#caption2 {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-.modal3 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-}
-.modal-content3 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-#caption3 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: justify;
-  color: #ffffff;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-content3,
-#caption3 {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-.modal4 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-}
-.modal-content4 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-#caption4 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: justify;
-  color: #ffffff;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-content4,
-#caption4 {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-.close {
-  position: absolute;
-  top: 69px;
-  right: 50px;
+section h2 {
+  text-transform: uppercase;
+  font-size: 3.25rem;
+  font-weight: 900;
+  padding: 50px 1em;
   color: #fff;
-  font-size: 50px;
-  font-weight: bold;
-  transition: 0.3s;
+  background-color: #f4f4f4;
+  mix-blend-mode: screen;
+  border-radius: 0.25em;
+  pointer-events: none;
+  user-select: none;
 }
 
-.close:hover,
-.close:focus {
-  color: red;
-  text-decoration: none;
-  cursor: pointer;
+section:nth-child(2) {
+  background-image: url(assets/bg1.jpg);
 }
 
-div.desc {
-  padding: 15px;
-
-  text-align: left;
-  color: #fff;
-  text-align: center;
+section:nth-child(3) {
+  background-image: url(assets/white.jpg);
 }
 
-/* 
-infected section */
-#CI1 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+section:nth-child(4) {
+  background-image: url(assets/bg2.jpg);
 }
 
-#CI1:hover {
-  opacity: 0.7;
+section:nth-child(5) {
+  background-image: url(assets/back.jpg);
 }
 
-.modal5 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-}
-.modal-content5 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+section:nth-child(6) {
+  background-image: url(assets/bg3.jpg);
 }
 
-#caption5 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: justify;
-  color: #ffffff;
-  padding: 10px 0;
-  height: 150px;
+section:nth-child(7) {
+  background-image: url(assets/white.jpg);
 }
 
-.modal-content5,
-#caption5 {
-  animation-name: zoom;
-  animation-duration: 0.6s;
+section:nth-child(8) {
+  background-image: url(assets/bg1.jpg);
 }
 
-.modal6 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-}
-.modal-content6 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-#caption6 {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: justify;
-  color: #ffffff;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-content6,
-#caption6 {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-/* weapons */
-
-div.scroll-container {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-div.scroll-container img {
-  padding: 10px;
-}
-
-/* Weapons Section */
-#weapons {
+/* STAGES SECTION */
+#stages {
   position: relative;
 }
 
@@ -633,9 +273,9 @@ div.scroll-container img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 650px;
   position: relative;
-  margin: auto;
+  margin: 20px 0 20px 0;
 }
 
 /* Hide the images by default */
