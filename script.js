@@ -113,3 +113,22 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+var modal = document.getElementById("myModal5");
+var img = document.getElementById("CPI1");
+var modalImg = document.getElementById("CPI01");
+var captionText = document.getElementById("caption5");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+};
+var span = document.getElementsByClassName("close")[4];
+span.onclick = function () {
+  modal.style.display = "none";
+};
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
