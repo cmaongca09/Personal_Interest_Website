@@ -37,27 +37,6 @@ weaponsArrow.onclick = function () {
   navLinks.classList.toggle("show3");
 };
 
-// function myFunction(event) {
-//   const images = document.querySelectorAll(".image img");
-//   var modal = document.getElementById("Modal");
-//   var modalImg = document.getElementsByClassName("expandedImg");
-//   const modalTxt = document.querySelector("caption");
-//   modal.style.display = "block";
-//   document
-//     .getElementById("expandedImg")
-//     .setAttribute(
-//       "src",
-//       event.target.getAttribute("src"),
-//       event.target.getAttribute("alt")
-//     );
-//   captionText.innerHTML = this.alt;
-// }
-
-// function closeModal(event) {
-//   const modal = document.getElementById("myModal");
-//   modal.style.display = "none";
-// }
-
 const image = document.querySelectorAll(".image img");
 const modal = document.querySelector(".modal");
 const expandedImg = document.querySelector(".expandedImg");
@@ -71,6 +50,23 @@ image.forEach((image) => {
 
     closebtn.addEventListener("click", () => {
       modal.classList.remove("appear");
+    });
+  });
+});
+
+const image2 = document.querySelectorAll(".image2 img");
+const modal2 = document.querySelector(".modal2");
+const expandedImg2 = document.querySelector(".expandedImg2");
+const caption2 = document.querySelector(".caption2");
+const closebtn2 = document.querySelector(".closebtn2");
+image2.forEach((image2) => {
+  image2.addEventListener("click", () => {
+    expandedImg2.src = image2.src;
+    caption2.innerHTML = image2.alt;
+    modal2.classList.add("appear");
+
+    closebtn2.addEventListener("click", () => {
+      modal2.classList.remove("appear");
     });
   });
 });
