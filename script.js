@@ -70,3 +70,20 @@ image2.forEach((image2) => {
     });
   });
 });
+
+const image3 = document.querySelectorAll(".image3 img");
+const modal3 = document.querySelector(".modal3");
+const expandedImg3 = document.querySelector(".expandedImg3");
+const caption3 = document.querySelector(".caption3");
+const closebtn3 = document.querySelector(".closebtn3");
+image3.forEach((image3) => {
+  image3.addEventListener("click", () => {
+    expandedImg3.src = image3.src;
+    caption3.innerHTML = image3.alt;
+    modal3.classList.add("appear");
+
+    closebtn3.addEventListener("click", () => {
+      modal3.classList.remove("appear");
+    });
+  });
+});

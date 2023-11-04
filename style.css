@@ -249,7 +249,7 @@ p {
 }
 
 .section-container {
-  gap: 2;
+  gap: 2rem;
   padding: 3rem;
 }
 
@@ -288,7 +288,7 @@ character section */
 .character-container,
 .image-container .image {
   height: 250px;
-  width: 300px;
+  width: 250px;
   cursor: pointer;
 }
 
@@ -530,31 +530,31 @@ div.desc {
   position: relative;
 }
 .character-container,
-.image-container .image2 {
+.image-container .image3 {
   height: 300px;
   width: 276px;
   cursor: pointer;
 }
 
 .character-container,
-.image-container .image2 img {
+.image-container .image3 img {
   height: 100%;
   width: 100%;
   transition: 0.2s linear;
 }
 
-.image-container .image2 img {
+.image-container .image3 img {
   border: 1px solid #ccc;
   background-color: gray;
   transition: 0.3s all ease;
 }
 
-.image-container .image2:hover img {
+.image-container .image3:hover img {
   transform: scale(0.9);
   border: 3px solid #a30909;
 }
 
-.modal2 {
+.modal3 {
   position: fixed;
   height: 100%;
   width: 100%;
@@ -568,7 +568,7 @@ div.desc {
   pointer-events: none;
 }
 
-.modal-content2 {
+.modal-content3 {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -576,13 +576,13 @@ div.desc {
   align-items: center;
 }
 
-.expandedImg2 {
+.expandedImg3 {
   margin-top: 4rem;
   width: 100%;
   max-width: 500px;
 }
 
-.caption2 {
+.caption3 {
   margin-top: 1em;
   display: block;
   width: 80%;
@@ -593,15 +593,15 @@ div.desc {
   height: 150px;
 }
 
-.modal2.appear {
+.modal3.appear {
   opacity: 1;
   pointer-events: all;
 }
-.modal2.appear .expandedImg2,
-.modal2.appear .caption2 {
+.modal3.appear .expandedImg3,
+.modal3.appear .caption3 {
   animation: zoom 0.3s linear;
 }
-.closebtn2 {
+.closebtn3 {
   position: absolute;
   top: 69px;
   right: 50px;
@@ -611,8 +611,8 @@ div.desc {
   transition: 0.3s;
 }
 
-.closebtn2:hover,
-.closebtn:focus {
+.closebtn3:hover,
+.closebtn3:focus {
   color: #e00303;
   text-decoration: none;
   cursor: pointer;
