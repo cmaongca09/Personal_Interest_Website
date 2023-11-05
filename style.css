@@ -210,7 +210,7 @@ p {
   color: #fff;
   text-align: justify;
   padding: 2rem;
-  -webkit-text-stroke-width: 2px #000;
+  font-size: 1.5rem;
   margin: auto 0;
 }
 
@@ -479,6 +479,7 @@ div.desc {
 
 .image-container .image2:hover img {
   transform: scale(0.9);
+  background-color: rgba(255, 255, 255, 0.1);
   border: 3px solid #a30909;
 }
 
@@ -572,6 +573,7 @@ div.desc {
 
 .image-container .image3:hover img {
   transform: scale(0.9);
+  background-color: rgba(255, 255, 255, 0.1);
   border: 3px solid #a30909;
 }
 
@@ -671,3 +673,74 @@ div.scroll-container img {
 div.scroll-container img {
   padding: 5px;
 } */
+
+/* Game Modes */
+#gamemodes {
+  position: relative;
+}
+
+.section-container,
+.section-details-container,
+.game-modes-container .tabhead {
+  margin: 0 auto;
+  padding: 2rem;
+}
+.tabhead {
+  font-size: 2rem;
+}
+/* Style the tab buttons */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 11.1%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: rgba(252, 16, 16, 0.5);
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px;
+  z-index: 100;
+  overflow: auto;
+  text-align: center;
+}
+
+/* Style each tab content individually */
+#Campaign {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Single-Player {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Survival {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Versus-Survival {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Versus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Realism-Versus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Realism {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Scavenge {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Mutations {
+  background-color: rgba(255, 255, 255, 0.1);
+}
