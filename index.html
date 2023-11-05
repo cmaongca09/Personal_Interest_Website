@@ -247,7 +247,7 @@
         </div>
       </section>
       <section id="infected">
-        <h3 class="head5"><br />Infecteds</h3>
+        <h1>Infecteds</h1>
         <section id="PI">
           <h3 class="head4"><br />Playable Infecteds</h3>
           <div class="section-container">
@@ -457,7 +457,12 @@
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
           <img src="assets/bg1.jpg" style="width: 100%" />
-          <div class="text">Caption Text</div>
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            eveniet incidunt ducimus placeat deleniti beatae tenetur, dolore
+            amet, ipsa voluptatum necessitatibus dolorem at exercitationem saepe
+            facilis, veniam asperiores soluta dolor.
+          </div>
         </div>
 
         <div class="mySlides fade">
@@ -486,19 +491,40 @@
       </div>
     </section>
     <section id="gamemodes">
-      <h1>GAME MODES</h1>
-      <div class="mySlides fade"></div>
-      <div class="container">
-        <img src="assets/back.jpg" alt="Avatar" class="image" />
-        <div class="overlay">
-          <div class="gmtext">Hello World</div>
-        </div>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">
+          London
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">
+          Paris
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+          Tokyo
+        </button>
       </div>
-      <div class="container">
-        <img src="assets/back.jpg" alt="Avatar" class="image" />
-        <div class="overlay">
-          <div class="gmtext">Hello World</div>
-        </div>
+
+      <!-- Tab content -->
+      <div id="London" class="tabcontent">
+        <h1>LONDON</h1>
+        <img src="assets/bg1.jpg" style="width: 40%" class="center" />
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <h1>Paris</h1>
+        <img src="assets/bg1.jpg" style="width: 40%" class="center" />
+        <p>Paris is the capital of France.</p>
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+        <h1>Tokyo</h1>
+        <img src="assets/bg1.jpg" style="width: 40%" class="center" />
+        <p>
+          Tokyo is the capital of Japan. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Consequatur soluta nesciunt magnam ducimus saepe
+          nostrum porro odit doloremque magni, eveniet deleniti, temporibus,
+          illum quas at sequi nobis. Aliquid, quasi ullam.
+        </p>
       </div>
     </section>
     <section id="about"></section>
