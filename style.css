@@ -834,53 +834,43 @@ div.scroll-container img {
 .card {
   background: rgb(63, 63, 63);
   width: 350px;
-  height: 400px;
+  height: 550px;
   margin: 10px;
 }
 
 .card-image {
   background-color: aqua;
-  height: 250px;
+  height: 300px;
   margin-bottom: 15px;
   background-size: cover;
+  background-position: center;
 }
 
 .pic-1 {
-  background-image: url(assets/DarkCarnival.webp);
-}
-
-.pic-2 {
-  background-image: url(assets/bg2.jpg);
-}
-
-.pic-3 {
   background-image: url(assets/DeadCenter.webp);
 }
 
+.pic-2 {
+  background-image: url(assets/ThePassing.webp);
+}
+
+.pic-3 {
+  background-image: url(assets/DarkCarnival.webp);
+}
+
 .pic-4 {
-  background-image: url(assets/bg3.jpg);
+  background-image: url(assets/SwampFever.webp);
 }
 .pic-5 {
   background-image: url(assets/HardRain.webp);
 }
 .pic-6 {
-  background-image: url(assets/bg3.jpg);
-}
-.pic-7 {
-  background-image: url(assets/SwampFever.webp);
-}
-.pic-8 {
-  background-image: url(assets/bg3.jpg);
-}
-.pic-9 {
   background-image: url(assets/TheParish.webp);
-}
-.pic-10 {
-  background-image: url(assets/bg3.jpg);
 }
 
 .card h1 {
   padding: 10px;
+  text-align: center;
 }
 
 .card p {
