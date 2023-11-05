@@ -4,17 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 body {
-  min-height: 100vh;
-  background-image: url("./assets/bg1.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: 0.6s;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -222,7 +214,7 @@ section h2 {
   pointer-events: none;
   user-select: none;
 }
-/* home & PI */
+/* home & Survivor */
 section:nth-child(2) {
   background-image: url(assets/bg1.jpg);
 }
@@ -821,7 +813,7 @@ div.scroll-container img {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px none;
+  border: 2px black;
   border-top: auto;
   float: left;
 }
@@ -830,5 +822,75 @@ div.scroll-container img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+}
+
+/* about */
+.container {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  background: rgb(63, 63, 63);
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+
+.card-image {
+  background-color: aqua;
+  height: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.pic-1 {
+  background-image: url(assets/DarkCarnival.webp);
+}
+
+.pic-2 {
+  background-image: url(assets/bg2.jpg);
+}
+
+.pic-3 {
+  background-image: url(assets/DeadCenter.webp);
+}
+
+.pic-4 {
+  background-image: url(assets/bg3.jpg);
+}
+.pic-5 {
+  background-image: url(assets/HardRain.webp);
+}
+.pic-6 {
+  background-image: url(assets/bg3.jpg);
+}
+.pic-7 {
+  background-image: url(assets/SwampFever.webp);
+}
+.pic-8 {
+  background-image: url(assets/bg3.jpg);
+}
+.pic-9 {
+  background-image: url(assets/TheParish.webp);
+}
+.pic-10 {
+  background-image: url(assets/bg3.jpg);
+}
+
+.card h1 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card:hover {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
 }
