@@ -200,7 +200,7 @@ nav .navbar .links li:hover .weapons-sub-menu {
 
 .head1 {
   text-align: center;
-  margin: 6rem;
+  margin: 0 auto;
   font-size: 3rem;
   color: #fff;
   -webkit-text-stroke: 2px rgb(163, 6, 6);
@@ -209,21 +209,32 @@ nav .navbar .links li:hover .weapons-sub-menu {
 p {
   color: #fff;
   text-align: justify;
+  padding: 2rem;
+  -webkit-text-stroke-width: 2px #000;
   margin: auto 0;
 }
 
 .head2 {
   text-align: left;
-  margin: 1.5rem;
-  font-size: 2.5rem;
-  padding: 1rem;
+  margin: 0 auto;
+  padding-left: 5rem;
+  font-size: 3rem;
   color: #fff;
   -webkit-text-stroke: 2px rgb(163, 6, 6);
 }
 
 .head3 {
   text-align: center;
-  margin: 1.5rem;
+  margin: 0 auto;
+  font-size: 2rem;
+  padding: 1.5rem;
+  color: #fff;
+  -webkit-text-stroke: 2px rgb(11, 163, 6);
+}
+
+.head3-5 {
+  text-align: left;
+  margin: 0 auto;
   font-size: 2rem;
   padding: 1.5rem;
   color: #fff;
@@ -232,18 +243,18 @@ p {
 
 .head4 {
   text-align: center;
-  margin: 1.5rem;
+  margin: 1.5rem auto;
   font-size: 2rem;
-  padding: 1.5rem;
+  padding-left: 5rem;
   color: #fff;
   -webkit-text-stroke: 2px rgb(206, 81, 9);
 }
 
 .head5 {
   text-align: left;
-  margin: 1.5rem;
+  margin: 1.5rem auto;
   font-size: 2.5rem;
-  padding: 1rem;
+  padding-left: 5rem;
   color: #fff;
   -webkit-text-stroke: 2px rgb(206, 81, 9);
 }
@@ -254,6 +265,7 @@ p {
 }
 
 .section-text {
+  margin: 0 auto;
   align-self: center;
   text-align: center;
 }
@@ -272,11 +284,15 @@ p {
   row-gap: 50px;
   justify-content: center;
   padding: 0.5rem;
-  padding-bottom: 2rem;
+  margin: 0 auto;
 }
 .section-details-container {
   justify-content: center;
   flex-direction: row;
+  margin: 0 auto;
+}
+.section-container .section-details-container {
+  margin: 0 auto;
 }
 
 /* 
@@ -289,6 +305,7 @@ character section */
 .image-container .image {
   height: 250px;
   width: 250px;
+  margin: 0 auto;
   cursor: pointer;
 }
 
@@ -296,6 +313,7 @@ character section */
 .image-container .image img {
   height: 100%;
   width: 100%;
+  margin: 0 auto;
   transition: 0.2s linear;
 }
 
@@ -316,6 +334,7 @@ character section */
   background: rgba(0, 0, 0, 0.9);
   height: 100%;
   width: 100%;
+  margin: 0 auto;
   z-index: 100;
   display: none;
 }
@@ -324,6 +343,7 @@ character section */
   top: 0;
   right: 10px;
   font-size: 50px;
+  margin: 0 auto;
   font-weight: bolder;
   color: #fff;
   cursor: pointer;
@@ -335,6 +355,7 @@ character section */
   left: 50%;
   transform: translate(-50%, -50%);
   border: 5px solid #fff;
+  margin: 0 auto;
   border-radius: 5px;
   width: 750px;
   object-fit: cover;
