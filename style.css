@@ -256,7 +256,16 @@ p {
   font-size: 2.5rem;
   padding-left: 5rem;
   color: #fff;
-  -webkit-text-stroke: 2px rgb(206, 81, 9);
+  -webkit-text-stroke: 2px rgb(97, 73, 59);
+}
+
+.head6 {
+  text-align: center;
+  margin: 0.5rem auto;
+  font-size: 2.5rem;
+  padding-left: 5rem;
+  color: #fff;
+  -webkit-text-stroke: 2px rgb(63, 125, 240);
 }
 
 .section-container {
@@ -673,6 +682,67 @@ div.scroll-container img {
 div.scroll-container img {
   padding: 5px;
 } */
+/* STAGES */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  background: rgb(63, 63, 63);
+  width: 450px;
+  height: 580px;
+  margin: 10px;
+}
+
+.card-image {
+  background-color: aqua;
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.pic-1 {
+  background-image: url(assets/DeadCenter.webp);
+}
+
+.pic-2 {
+  background-image: url(assets/ThePassing.webp);
+}
+
+.pic-3 {
+  background-image: url(assets/DarkCarnival.webp);
+}
+
+.pic-4 {
+  background-image: url(assets/SwampFever.webp);
+}
+.pic-5 {
+  background-image: url(assets/HardRain.webp);
+}
+.pic-6 {
+  background-image: url(assets/TheParish.webp);
+}
+
+.card h1 {
+  padding: px;
+  text-align: center;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.card:hover {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
 
 /* Game Modes */
 #gamemodes {
