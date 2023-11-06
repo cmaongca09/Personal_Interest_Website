@@ -264,7 +264,7 @@ p {
 /* Slideshow */
 .slideshow-container {
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   border: 2px solid gray;
   background-color: black;
   overflow: hidden;
@@ -279,22 +279,24 @@ p {
 }
 
 .active {
-  background-color: #717171;
+  background-color: #242424;
 }
 
 .fade {
   animation-name: fade;
   animation-duration: 1.2s;
 }
+
 .dot {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #7c7c7c;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 1.2s ease;
 }
+
 .slideshow-container .mySlides .SS {
   height: 420px;
   width: 420px;
@@ -309,9 +311,8 @@ character section */
 
 .character-container,
 .image-container .image {
-  height: 250px;
-  width: 250px;
-  margin: 0 auto;
+  height: 250px auto;
+  width: 250px auto;
   cursor: pointer;
 }
 
@@ -319,12 +320,12 @@ character section */
 .image-container .image img {
   height: 100%;
   width: 100%;
-  margin: 0 auto;
   transition: 0.2s linear;
 }
 
 .image-container .image img {
   border: 1px solid #ccc;
+  margin: 0 auto;
   transition: 0.3s all ease;
 }
 
@@ -680,6 +681,9 @@ div.scroll-container img {
   padding: 5px;
 } */
 /* STAGES */
+#stages {
+  position: relative;
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -822,26 +826,35 @@ div.scroll-container img {
   position: relative;
 }
 
+.Member-pic {
+  border-radius: 50%;
+  margin-top: 2rem auto;
+  margin-left: 2rem auto;
+  margin-right: 2rem auto;
+  margin-bottom: 1rem auto;
+  max-width: 60%;
+}
+
 .our-opinion {
   color: #fff;
   text-align: center;
-  padding: 2rem;
-  font-size: 2rem;
-  margin: auto 0;
+  padding: 2rem auto;
+  font-size: 2rem auto;
+  margin: 0 auto;
 }
 
 .about-scetion-details {
   float: left;
-  width: 45%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+  width: 45% auto;
+  margin-bottom: 16px auto;
+  padding: 1rem 8px;
 }
 
 .team-card {
   background: rgba(63, 63, 63, 0.3);
   width: 350px auto;
   height: 380px auto;
-  margin: 10px;
+  margin: 20px;
 }
 
 .info-container {
