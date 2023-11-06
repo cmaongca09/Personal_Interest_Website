@@ -371,14 +371,7 @@
   }
 }
 
-@media (max-width: 1130px) and (min-width: 992px) {
-  section.home {
-    height: auto;
-    width: 100%;
-  }
-}
-
-@media (max-width: 551px) and (min-width: 501px) {
+@media only screen and (max-width: 840px) {
   section.home {
     height: auto;
     width: 100%;
