@@ -15,6 +15,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
   transition: 0.6s;
+  .mySlides {
+    display: none;
+  }
+  img {
+    vertical-align: middle;
+  }
 }
 
 html {
@@ -154,7 +160,7 @@ nav .navbar .links li:hover .weapons-sub-menu {
   margin: 20px auto;
   font-size: 3rem;
   color: #fff;
-  -webkit-text-stroke: 2px rgb(163, 6, 6);
+  -webkit-text-stroke: 2px rgb(224, 3, 3);
 }
 
 p {
@@ -171,7 +177,7 @@ p {
   padding-left: 5rem;
   font-size: 3rem;
   color: #fff;
-  -webkit-text-stroke: 2px rgb(163, 6, 6);
+  -webkit-text-stroke: 2px rgb(224, 3, 3);
 }
 
 .head3 {
@@ -252,6 +258,46 @@ p {
   margin: 0 auto;
 }
 .section-container .section-details-container {
+  margin: 0 auto;
+}
+
+/* Slideshow */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  border: 2px solid gray;
+  background-color: black;
+  overflow: hidden;
+}
+
+.slideshow-container img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  position: relative;
+  height: 480px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.slideshow-container .mySlides .SS {
+  height: 420px;
+  width: 420px;
   margin: 0 auto;
 }
 
@@ -786,7 +832,7 @@ div.scroll-container img {
 
 .about-scetion-details {
   float: left;
-  width: 25%;
+  width: 45%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -794,7 +840,7 @@ div.scroll-container img {
 .team-card {
   background: rgba(63, 63, 63, 0.3);
   width: 350px auto;
-  height: 480px auto;
+  height: 380px auto;
   margin: 10px;
 }
 
@@ -805,7 +851,6 @@ div.scroll-container img {
 .name-title {
   color: #fff;
   padding: 0 30px;
-
   font-size: 2rem;
 }
 
