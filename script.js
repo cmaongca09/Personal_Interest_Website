@@ -15,7 +15,7 @@ searchBox.addEventListener("click", () => {
 // sidebar open close weapons code
 let navLinks = document.querySelector(".nav-links");
 let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+let menuCloseBtn = document.querySelector(".nav-links .logo-name");
 menuOpenBtn.onclick = function () {
   navLinks.style.left = "0";
 };
