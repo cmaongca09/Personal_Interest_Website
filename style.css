@@ -72,6 +72,11 @@ nav .navbar .links li a {
   font-size: 15px;
   font-weight: 500;
 }
+
+li:hover {
+  background-color: #e00303;
+}
+
 .links li:hover .characters-arrow,
 .links li:hover .weapons-arrow {
   transform: rotate(180deg);
@@ -687,6 +692,7 @@ div.scroll-container img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .card {
@@ -733,6 +739,7 @@ div.scroll-container img {
 
 .card p {
   padding: 10px;
+  margin: 0 auto;
   font-size: 14px;
 }
 
