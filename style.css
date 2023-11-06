@@ -840,20 +840,21 @@ div.scroll-container img {
 
 .about-scetion-details {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
 .team-card {
   background: rgba(63, 63, 63, 0.3);
-  width: 450px;
-  height: 580px auto;
+  width: 350px auto;
+  height: 480px auto;
   margin: 10px;
 }
 
 .info-container {
   padding: 0 16px;
+  width: 0 13px;
 }
 .name-title {
   color: #fff;
