@@ -225,7 +225,7 @@
     font-size: 15px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 840px) {
   nav {
     position: relative;
   }
