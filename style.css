@@ -268,12 +268,13 @@ p {
   border: 2px solid gray;
   background-color: black;
   overflow: hidden;
+  width: 720px;
 }
 
 .slideshow-container img {
   display: block;
   margin: 0 auto;
-  width: auto;
+  width: 720px;
   position: relative;
   height: 480px;
 }
@@ -297,12 +298,6 @@ p {
   transition: background-color 1.2s ease;
 }
 
-.slideshow-container .mySlides .SS {
-  height: 420px;
-  width: 420px;
-  margin: 0 auto;
-}
-
 /* 
 character section */
 #characters {
@@ -311,7 +306,7 @@ character section */
 
 .character-container,
 .image-container .image {
-  height: 250px auto;
+  height: 250px;
   width: 250px auto;
   cursor: pointer;
 }
@@ -686,6 +681,8 @@ div.scroll-container img {
 }
 .container {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
@@ -693,7 +690,7 @@ div.scroll-container img {
 
 .card {
   background: rgb(63, 63, 63);
-  width: 450px;
+  width: 280px;
   height: 580px auto;
   margin: 10px;
 }
