@@ -911,6 +911,12 @@ footer {
   width: 50%;
 }
 
+.footer-content .list {
+  display: flex;
+  text-align: center;
+  margin-left: 90px;
+}
+
 h3 {
   color: white;
   font-size: 28px;
@@ -949,7 +955,7 @@ h3 {
   top: 100%;
   width: 0;
   height: 2px;
-  background: #ffffff;
+  background: #000000;
   transition-duration: 0.5s;
 }
 .list li:hover::before {

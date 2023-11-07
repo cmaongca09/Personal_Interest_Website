@@ -501,10 +501,3 @@
     width: 100%;
   }
 }
-
-@media (max-width: 1200px) {
-  footer {
-    height: auto;
-    width: auto;
-  }
-}
