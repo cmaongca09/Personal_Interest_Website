@@ -80,7 +80,7 @@ nav .navbar .links li a {
 }
 
 li:hover {
-  background-color: #7e0606;
+  background-color: #680000;
 }
 
 .links li:hover .characters-arrow,
@@ -889,4 +889,91 @@ div.scroll-container img {
 
 .link-btn:hover {
   background-color: red;
+}
+
+/*FOOTER*/
+footer {
+  background-color: transparent;
+  padding-top: 50px;
+}
+
+.footer-container {
+  width: 1340px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 50%;
+}
+
+.footer-content .list {
+  display: flex;
+  text-align: center;
+  margin-left: 90px;
+}
+
+h3 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 22px;
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul {
+  text-align: center;
+}
+.list {
+  color: #000000;
+  padding: 0;
+}
+.list li {
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+.list li a {
+  color: white;
+}
+.list li::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #000000;
+  transition-duration: 0.5s;
+}
+.list li:hover::before {
+  width: 70px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #a00f0f;
+}
+.bottom-bar {
+  background: #000000;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
 }
