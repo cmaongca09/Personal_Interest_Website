@@ -643,38 +643,11 @@ div.desc {
   cursor: pointer;
 }
 
-/* weapons */
-/* 
-div.scroll-container {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-div.scroll-container img {
-  padding: 10px;
-} */
-
 /* Weapons Section */
 #weapons {
   position: relative;
 }
 
-/* div.scroll-container {
-  width: 1520px;
-  height: 700px;
-  overflow: auto;
-  margin: 100;
-  background-color: black;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 1px;
-}
-
-div.scroll-container img {
-  padding: 5px;
-} */
 /* STAGES */
 #stages {
   position: relative;
@@ -821,7 +794,46 @@ div.scroll-container img {
 #about {
   position: relative;
 }
+.gamecover {
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.image-logo {
+  background: rgba(64, 64, 64, 0.4);
+}
+
+.image-logo:hover {
+  background: rgba(63, 252, 16, 0.5);
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 30px;
+  text-align: center;
+}
+th {
+  color: white;
+  background-color: #09a311;
+}
+td a {
+  color: #fff;
+}
+
+td a:hover {
+  color: #09a311;
+}
+
+td {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 .our-opinion {
   color: #fff;
   text-align: center;
@@ -832,6 +844,7 @@ div.scroll-container img {
 
 .my-team {
   display: inline-table;
+  flex-wrap: wrap;
   border-left: 8px solid #a00f0f;
   border-bottom: 8px solid #a00f0f;
   width: 30%;
@@ -845,10 +858,10 @@ div.scroll-container img {
 .team-container {
   justify-content: center;
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 10px auto;
+  margin-left: 10px auto;
   padding-left: 15px;
   padding-right: 15px;
 }
