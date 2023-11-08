@@ -398,7 +398,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1400px) {
   .character-container .popup-image img {
     height: auto;
     width: 100%;
