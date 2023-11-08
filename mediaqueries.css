@@ -327,7 +327,6 @@
 @media (max-width: 1400px) {
   #characters {
   }
-
   .head {
     align-items: center;
   }
@@ -370,135 +369,186 @@
     width: 100%;
   }
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 100px) {
   section.home {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.character {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.weapons {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.stages {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.gamemodes {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.about {
     height: auto;
-    width: 100%;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 100px) {
+  section.home {
+    height: auto;
+    width: auto;
+  }
+  section.character {
+    height: auto;
+    width: auto;
+  }
+  section.weapons {
+    height: auto;
+    width: auto;
+  }
+  section.stages {
+    height: auto;
+    width: auto;
+  }
+  section.gamemodes {
+    height: auto;
+    width: auto;
+  }
+  section.about {
+    height: auto;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 300px) {
+  section.home {
+    height: auto;
+    width: auto;
+  }
+  section.character {
+    height: auto;
+    width: auto;
+  }
+  section.weapons {
+    height: auto;
+    width: auto;
+  }
+  section.stages {
+    height: auto;
+    width: auto;
+  }
+  section.gamemodes {
+    height: auto;
+    width: auto;
+  }
+  section.about {
+    height: auto;
+    width: auto;
   }
 }
 @media only screen and (min-width: 600px) {
   section.home {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.character {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.weapons {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.stages {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.gamemodes {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.about {
     height: auto;
-    width: 100%;
+    width: auto;
   }
 }
 @media only screen and (min-width: 768px) {
   section.home {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.character {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.weapons {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.stages {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.gamemodes {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.about {
     height: auto;
-    width: 100%;
+    width: auto;
   }
 }
 @media only screen and (min-width: 992px) {
   section.home {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.character {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.weapons {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.stages {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.gamemodes {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.about {
     height: auto;
-    width: 100%;
+    width: auto;
   }
 }
 @media only screen and (min-width: 1200px) {
   section.home {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.character {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.weapons {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.stages {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.gamemodes {
     height: auto;
-    width: 100%;
+    width: auto;
   }
   section.about {
     height: auto;
-    width: 100%;
+    width: auto;
   }
 }
 
