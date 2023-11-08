@@ -1078,7 +1078,7 @@ h1 {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
+  width: 30%;
   display: none; /* Hide columns by default */
 }
 
@@ -1093,7 +1093,7 @@ h1 {
 .content {
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
-  padding: 10px;
+  padding-right: 5px;
 }
 
 /* The "show" class is added to the filtered elements */
