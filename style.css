@@ -307,7 +307,7 @@ character section */
 .character-container,
 .image-container .image {
   height: 250px;
-  width: 250px auto;
+  width: 250px;
   cursor: pointer;
 }
 
